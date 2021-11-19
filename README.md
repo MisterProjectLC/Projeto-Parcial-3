@@ -20,3 +20,9 @@ O obstaculo 1(2) foi criado e foi aplicado uma escala(-0.2754666, 0.461992, 1) e
 
 <h2>Douglas:</h2>	
 Minha ideia foi adicionar uma casinha no projeto. Para isso, eu adicionei um cubo na cena e mudei sua escala para ficar do tamanho de uma casa. Infelizmente, no Unity não há formato de pirâmide como objeto padrão, então, para fazer o teto, eu dupliquei o cubo da casa e o rotacionei. Após alguns ajustes de posição(-1.83, 1.03, 2.7) e escala(3.98149, 2.1173, 2.885666), a "casinha" ficou pronta.
+
+
+<h1> Projeto Parcial 4 </h4>
+
+No começo do projeto percebemos que nós já tínhamos feito uma parte dele na entrega anterior, com o movimento da câmera mudando conforme o jogador se move na cena, nós tínhamos feito objetos com movimentos dependentes. Então, adicionamos uma nova câmera na cena e ela é ativada e desativada através da tecla E, esta câmera está na mesma posição que a câmera anterior e possui uma perspectiva de projeção paralela. Adicionamos textos para o jogador souber o que fazer quando rodar a cena, além de mexer os objetos que estavam já posicionados na entrega anterior, como a casa e a árvore para demonstrar a diferença entre as duas câmeras. Além disso, adicionamos cubos na cena e fizemos um pequeno puzzle que o jogador tem que resolver para finalizar o jogo.
+
