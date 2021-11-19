@@ -6,20 +6,18 @@ public class Ascension : MonoBehaviour
 {
     [SerializeField]
     GameObject player;
-    CanvasGroup canvasGroup;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        canvasGroup = GetComponent<CanvasGroup>();
-    }
+    [SerializeField]
+    CanvasGroup canvasGroupWhite;
+    [SerializeField]
+    CanvasGroup canvasGroupText;
 
     // Update is called once per frame
     void Update()
     {
         if (player.transform.position.y > 5f)
         {
-            canvasGroup.alpha = Mathf.Lerp(0f, 1f, Mathf.Clamp01((player.transform.position.y - 5f)/ 10f));
+            canvasGroupWhite.alpha = Mathf.Lerp(0f, 1f, Mathf.Clamp01((player.transform.position.y - 5f)/ 40f));
+            canvasGroupText.alpha = Mathf.Lerp(0f, 1f, Mathf.Clamp01((player.transform.position.y - 40f) / 10f));
         }
     }
 }
