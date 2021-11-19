@@ -17,6 +17,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     float RotationSpeed = 400f;
 
+    float clock = 0f;
+
     private void Start()
     {
         input = GetComponent<PlayerInput>();
@@ -26,7 +28,11 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        RotationalMovement();
+        clock += Time.deltaTime;
+        Debug.Log(Cursor.lockState);
+
+        if (clock > 1f)
+            RotationalMovement();
         TranslationalMovement();
 
     }
