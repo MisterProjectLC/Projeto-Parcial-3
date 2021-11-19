@@ -34,6 +34,11 @@ public class PlayerInput : MonoBehaviour
     public bool GetRightShoot() {
         return InputEnabled ? Input.GetButton("Fire2") : false;
     }
+
+    public bool GetProjectionShift()
+    {
+        return InputEnabled ? Input.GetButtonDown("ProjectionShift") : false;
+    }
 }
 
 

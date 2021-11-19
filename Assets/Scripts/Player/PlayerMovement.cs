@@ -46,6 +46,12 @@ public class PlayerMovement : MonoBehaviour
     void TranslationalMovement()
     {
         Vector3 moveInput = transform.TransformVector(input.GetMoveInput());
+
+        if (verticalRotation.x < -65f)
+        {
+            moveInput = camera.transform.TransformVector(moveInput);
+        }
+
         characterController.Move(moveInput * WalkSpeed * Time.deltaTime);
     }
 }
