@@ -25,6 +25,14 @@ Minha ideia foi adicionar uma casinha no projeto. Para isso, eu adicionei um cub
 <h1> Projeto Parcial 4 </h4>
 
 Quando iniciamos esta fase do projeto, percebemos que já havíamos feito uma parte dele na entrega anterior. Com o movimento da câmera mudando conforme o jogador se move na cena, fizemos o requisito da cena possuir um objeto com movimentos dependentes. 
+
 Então, adicionamos uma nova câmera na cena. Esta câmera está localizada na mesma posição que a câmera anterior,  e ela é ativada e desativada através da tecla "E". A nova câmera possui uma perspectiva de projeção paralela. 
+
 Adicionamos textos explicando os comandos que o jogador utiliza para interagir com a cena, além de mudar a posição de alguns objetos , como a casa e a árvore, para demonstrar a diferença de perspectiva entre as duas câmeras. Além disso, adicionamos cubos na cena, e fizemos um pequeno puzzle que o jogador tem que resolver para finalizar o jogo.
 
+Encorajamos que qualquer um que for testar o jogo, que tente resolver a puzzle, já que faz parte da experiência. Caso você não consiga resolver a puzzle, aqui está a resolução:
+<details>
+  <summary>Resolução do Jogo</summary>
+    Para finalizar o jogo e resolver a puzzle, basta apontar a câmera para cima e apertar e segurar a tecla "W", até que o jogo fique com a tela completamente branca. Depois de um tempo com a tela em branco, uma mensagem de finalização de jogo vai aparecer, e o jogo cregará ao seu fim.
+  
+</details>
