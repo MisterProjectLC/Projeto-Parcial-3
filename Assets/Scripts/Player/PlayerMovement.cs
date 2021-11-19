@@ -55,7 +55,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (verticalRotation.x < -65f)
         {
-            moveInput = camera.transform.TransformVector(moveInput);
+            moveInput = camera.transform.TransformVector(input.GetMoveInput());
         }
 
         characterController.Move(moveInput * WalkSpeed * Time.deltaTime);
