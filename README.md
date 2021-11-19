@@ -24,6 +24,8 @@ Minha ideia foi adicionar uma casinha no projeto. Para isso, eu adicionei um cub
 
 <h1> Projeto Parcial 4 </h4>
 
+Uma build do jogo se encontra na pasta: https://drive.google.com/file/d/1ZB_9zJZopU3SbTNbkAQo2SZ-tQI4BGUH/view?usp=sharing
+
 Quando iniciamos esta fase do projeto, percebemos que já havíamos feito uma parte dele na entrega anterior. Com o movimento da câmera mudando conforme o jogador se move na cena, fizemos o requisito da cena possuir um objeto com movimentos dependentes. 
 
 Então, adicionamos uma nova câmera na cena. Esta câmera está localizada na mesma posição que a câmera anterior,  e ela é ativada e desativada através da tecla "E". A nova câmera possui uma perspectiva de projeção paralela. 
